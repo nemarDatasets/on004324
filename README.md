@@ -1,4 +1,6 @@
-﻿# Images of stylized faces improve ERP features used for emotion detection
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004324-blue)](https://doi.org/10.82901/nemar.on004324)
+
+# Images of stylized faces improve ERP features used for emotion detection
 
 For their ease of accessibility and low cost, current Brain-Computer Interfaces (BCI) used to detect subjective emotional and affective states rely largely on electroencephalographic (EEG) signals. Numerous datasets are publicly available for any researcher to design models for affect detection from EEG. However, few designs focus on optimally exploiting the nature of the stimulus elicitation to improve accuracy.
 We found that artificially enhanced human faces with exaggerated visual features significantly improve some commonly used neural correlates of emotion as measured by event-related potentials (ERPs). These images elicit an enhanced N170 component, well known in facial recognition encoding. Our findings suggest that the study of emotion elicitation could exploit consistent stimuli transformations to study the characteristics of ERPs related to specific affective stimuli. Furthermore, this specific result might be useful in the context of affective BCI design, where a higher accuracy in affect detection from EEG can improve the experience of a user.
