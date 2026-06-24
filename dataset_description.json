@@ -1,11 +1,17 @@
 {
-    "Name": "ToonFaces",
-    "BIDSVersion": "1.6.0",
-    "DatasetType": "raw",
-    "Authors": [
-        "Luis Alberto Barradas Chacón",
-        "Selina C. Wriessnegger"
-    ],
-    "DatasetDOI": "doi:10.18112/openneuro.ds004324.v1.0.0",
-    "License": "CC0"
+  "Name": "ToonFaces",
+  "BIDSVersion": "1.6.0",
+  "DatasetType": "raw",
+  "Authors": [
+    "Luis Alberto Barradas Chacón",
+    "Selina C. Wriessnegger"
+  ],
+  "DatasetDOI": "10.82901/nemar.on004324",
+  "License": "CC0",
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds004324.v1.0.0"
+    }
+  ],
+  "Version": "1.0.0"
 }
