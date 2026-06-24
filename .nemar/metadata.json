@@ -1,19 +1,39 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "ToonFaces",
+  "description": "This dataset comprises electroencephalographic (EEG) recordings collected during the presentation of stylized facial stimuli to investigate emotion detection and event-related potentials (ERPs). The study demonstrates that artificially enhanced faces with exaggerated visual features elicit enhanced N170 components compared to standard facial images, suggesting optimized stimulus design can improve neural correlates of emotion recognition. These findings have implications for affective brain-computer interface (BCI) development and emotion detection accuracy from EEG signals.",
+  "methods_description": "EEG signals were recorded while participants viewed images of stylized faces and standard faces. Event-related potentials (ERPs) were analyzed, with particular focus on the N170 component as a neural correlate of facial encoding and emotion processing.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
     "Luis Alberto Barradas Chacón": {},
     "Selina C. Wriessnegger": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds004324.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "emotion detection"
+    },
+    {
+      "term": "event-related potentials"
+    },
+    {
+      "term": "N170 component"
+    },
+    {
+      "term": "facial recognition"
+    },
+    {
+      "term": "brain-computer interfaces"
+    },
+    {
+      "term": "affect detection"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on004324",
       "identifier_type": "URL",
@@ -33,58 +53,27 @@
       "identifier": "10.1038/s41597-019-0104-8",
       "identifier_type": "DOI",
       "relation_type": "References"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004324.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "2.6 GB (27 files)"
   ],
   "formats": [
     ".edf",
     ".json",
     ".md",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "This dataset comprises electroencephalographic (EEG) recordings collected during the presentation of stylized facial stimuli to investigate emotion detection and event-related potentials (ERPs). The study demonstrates that artificially enhanced faces with exaggerated visual features elicit enhanced N170 components compared to standard facial images, suggesting optimized stimulus design can improve neural correlates of emotion recognition. The findings have implications for affective brain-computer interface (BCI) development and emotion detection accuracy from EEG signals.",
-  "methods_description": "EEG signals were recorded while participants viewed images of stylized faces with exaggerated visual features and standard facial stimuli. Event-related potentials (ERPs) were analyzed, with particular focus on the N170 component as a neural correlate of facial encoding and emotion processing.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "event-related potentials"
-    },
-    {
-      "term": "ERP"
-    },
-    {
-      "term": "emotion detection"
-    },
-    {
-      "term": "facial recognition"
-    },
-    {
-      "term": "N170 component"
-    },
-    {
-      "term": "brain-computer interfaces"
-    },
-    {
-      "term": "BCI"
-    },
-    {
-      "term": "affect detection"
-    },
-    {
-      "term": "affective computing"
-    },
-    {
-      "term": "stylized faces"
-    }
-  ],
-  "source_hash": "773fdbf0304d616312441d0cf11d185ffcf237e119e2ef2e46889de98ad1a584"
+  "source_hash": "c3a8e4740c4d1bc4f13147de088a5ea97680e7170a62667e6aa9a23c58d22774"
 }
