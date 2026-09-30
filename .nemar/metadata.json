@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "ToonFaces",
-  "description": "This dataset contains EEG recordings from an experiment investigating how stylized, exaggerated facial images enhance event-related potential (ERP) features relevant to emotion detection. The study demonstrates that artificially modified human faces elicit a stronger N170 component compared to natural faces, informing the design of affective brain-computer interfaces (BCIs). Participant identifying information has been removed for anonymization.",
+  "description": "EEG dataset investigating whether images of stylized (cartoon-like) faces with exaggerated visual features improve event-related potential (ERP) correlates of emotion relative to ordinary human faces. The stylized faces elicit an enhanced N170 component associated with facial recognition encoding. The findings suggest that consistent stimulus transformations could improve affect detection from EEG in affective brain-computer interface design.",
   "methods_description": "EEG signals were recorded while participants viewed images of stylized faces and standard faces. Event-related potentials (ERPs) were analyzed, with particular focus on the N170 component as a neural correlate of facial encoding and emotion processing.",
   "license": "CC0",
   "dataset_type": "raw",
@@ -15,25 +15,24 @@
       "term": "EEG"
     },
     {
-      "term": "Event-Related Potentials, P300",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
-    },
-    {
-      "term": "Emotion-Focused Therapy",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000071441"
-    },
-    {
-      "term": "brain-computer interface"
+      "term": "event-related potentials"
     },
     {
       "term": "N170"
     },
     {
-      "term": "facial recognition"
+      "term": "emotion"
+    },
+    {
+      "term": "Facial Recognition",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000066499"
+    },
+    {
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "affective computing"
     }
   ],
   "related_identifiers": [
@@ -69,7 +68,7 @@
     "eeg"
   ],
   "sizes": [
-    "2.6 GB (27 files)"
+    "2.46 GB (27 files)"
   ],
   "formats": [
     ".edf",
